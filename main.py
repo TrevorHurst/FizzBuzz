@@ -4,3 +4,4 @@ for i in range(1, 101):
                if i % j == 0 else i for j in Fizzbuzz))
     print(out[0] if len(out) < 2
           else ''.join([x for x in out if isinstance(x, str)]))
+    
